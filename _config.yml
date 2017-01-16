@@ -7,9 +7,6 @@
 
 # Site settings
 title: Accueil
-email: eugenie.tchayo.1@ulaval.ca
-description: > # this means to ignore newlines until "baseurl:"
-  Ce site met à la disposition des usagers les éléments sur la Parole de Dieu. Ces éléments proviennent de la Bible.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.partagelaparolededieu.com" # the base hostname & protocol for your site
 github_username:  eucons
