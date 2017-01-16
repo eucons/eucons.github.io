@@ -2,22 +2,19 @@
 layout: default
 ---
 
-<div class="home">
+<div class="titre">
+        <img src="https://lirelabible.files.wordpress.com/2011/03/bible.gif">
+        <p class="para" > <strong>Partage de l'Évangile</strong></p>
+    </div>
 
-  <h1 class="page-heading">Posts</h1>
+    <div class="theme">Les thèmes:
+        <p><a a href="#">Dates de rencontre</a></p>
+        <p><a a href="#">Lecture de la semaine</a></p>
+        <p><a a href="#">Intention(s) de prière de la semaine</a></p>
+        <p><a a href="#">Annonces</a></p>
+        <p><a a href="#">Photos</a></p>
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <div class="footer">
+        <p><a href="#">>> Envoyer nous un email!!!</a></p>
+    </div>
